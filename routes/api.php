@@ -16,6 +16,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+//routes
 Route::apiResource('announcesClients', AnnounceClientController::class);
 
 Route::apiResource('announcesDrivers', AnnounceDriverController::class);
