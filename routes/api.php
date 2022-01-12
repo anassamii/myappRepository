@@ -20,3 +20,5 @@ use Illuminate\Support\Facades\Route;
 Route::apiResource('announcesClients', AnnounceClientController::class);
 
 Route::apiResource('announcesDrivers', AnnounceDriverController::class);
+
+Route::apiResource('profiles' ,ProfileController::class);
